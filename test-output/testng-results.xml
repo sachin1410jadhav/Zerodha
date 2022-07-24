@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74864" started-at="2022-07-23T15:07:09Z" finished-at="2022-07-23T15:08:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74864" started-at="2022-07-23T15:07:09Z" finished-at="2022-07-23T15:08:24Z">
+      <class name="testClasses.IntadayFirstSellThenBuy">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:testClasses.IntadayFirstSellThenBuy@16ec5519]" name="LaunchBrowser" is-config="true" duration-ms="20141" started-at="2022-07-23T15:07:09Z" finished-at="2022-07-23T15:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="loginpage()[pri:0, instance:testClasses.IntadayFirstSellThenBuy@16ec5519]" name="loginpage" is-config="true" duration-ms="3303" started-at="2022-07-23T15:07:29Z" finished-at="2022-07-23T15:07:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="ShareBuy()[pri:0, instance:testClasses.IntadayFirstSellThenBuy@16ec5519]" name="ShareBuy" duration-ms="42422" started-at="2022-07-23T15:07:32Z" finished-at="2022-07-23T15:08:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShareBuy -->
+        <test-method status="PASS" signature="logout(org.testng.ITestResult)[pri:0, instance:testClasses.IntadayFirstSellThenBuy@16ec5519]" name="logout" is-config="true" duration-ms="8384" started-at="2022-07-23T15:08:15Z" finished-at="2022-07-23T15:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ShareBuy status=SUCCESS method=IntadayFirstSellThenBuy.ShareBuy()[pri:0, instance:testClasses.IntadayFirstSellThenBuy@16ec5519] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:testClasses.IntadayFirstSellThenBuy@16ec5519]" name="browserClose" is-config="true" duration-ms="541" started-at="2022-07-23T15:08:23Z" finished-at="2022-07-23T15:08:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- testClasses.IntadayFirstSellThenBuy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
